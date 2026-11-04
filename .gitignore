@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+logs.txt
+
+# Uploaded user documents should not be committed.
+documents/*
+!documents/.gitkeep
